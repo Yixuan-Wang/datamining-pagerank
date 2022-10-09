@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "a1-pagerank"
+version = "0.1.0"
+description = "PageRank on 150M Wikipedia pages."
+authors = ["Yixuan-Wang <tom-yixuan_wang@qq.com>"]
+license = "WTFPL"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+lxml = "^4.9.1"
+python-dotenv = "^0.21.0"
+mwparserfromhell = "^0.6.4"
+rich = "^12.6.0"
+regex = "^2022.9.13"
+pyarrow = "^9.0.0"
+scipy = "^1.9.1"
+altair = "^4.2.0"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
